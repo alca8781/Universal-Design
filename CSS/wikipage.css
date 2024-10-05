@@ -1,6 +1,9 @@
 
 html{
-    margin: 8em; 
+    margin-left: 8em; 
+    margin-right: 8em;
+    margin-bottom: 4em;  
+    margin-top: 4em; 
     background-color: rgb(230, 231, 231);
 
 }
@@ -134,3 +137,12 @@ h3{
     grid-template-columns: 1fr 5fr;
 }
 
+button {
+    margin-top: 100pt;
+    background-color: rgb(188, 188, 203);
+    border: none;
+    padding: 15pt;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+}

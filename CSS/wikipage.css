@@ -1,6 +1,6 @@
 
 html{
-    margin: 6em; 
+    margin: 8em; 
     background-color: rgb(230, 231, 231);
 
 }
@@ -16,9 +16,6 @@ html{
     white-space: nowrap;
     width: 1px;
 }
-  
-
-  
 
 p{
     font-family: "Raleway", sans-serif;
@@ -28,8 +25,10 @@ p{
     margin-left: 15px;
     font-size: 14pt;
     line-height: 1.5em;
+    margin:0; 
+    padding-left: 10px;
+    max-width: 65ch;
 }
-
 
 h1{
     font-family: "Anton SC", sans-serif;
@@ -41,15 +40,17 @@ h1{
     margin-left: 10px;
 }
   
-
 h2{
     font-family: "Merriweather", serif;
     font-weight: 700;
     font-style: normal;
+    font-size: 24pt;
 }
 
 h3{
-    text-align: center;
+    text-align: right;
+    margin: 30px;
+    font-size: 18pt;
 }
 
 
@@ -58,35 +59,78 @@ h3{
 .back{
     display: inline-grid;
     grid-template-columns: 2fr 1fr ;
-    gap:25px;
+    gap:20px;
 }
-.typesImg{
-    margin-top: 40px;
+
+.etym{
+    display:grid; 
+    grid-template-columns: 3fr 1fr;
     
-}
-
-.etymology img{
-display: inline inline-block;
-margin-left: 20pt;
-
 }
 
 .tax{
-    display: grid;
-    grid-template-columns: 4fr 0.5fr 0.5fr;
-    gap:15pt;
-    
+    display: inline flex;
+    gap:10pt; 
 }
 .tax img{
-    margin-top:35pt;
+    margin-top: 60pt;
+    height: 290px; 
+}
+.tax p{
+    margin-right: 20pt;
+}
+
+.evo{
+    display:grid; 
+    grid-template-columns: 2fr 1fr;
+    gap: 15pt;
+}
+
+.skeleton{
+    display:grid; 
+    grid-template-columns: 3fr 1fr;
     
 }
+.skeleton img{
+    width: 550px;
+    margin-top: 35pt;
+    margin-left: 20pt;
+}
+
+
 
 .ears{
     display:grid; 
     grid-template-columns: 1fr 5fr;
 }
+
 .trunk{
     display:grid; 
     grid-template-columns: 1fr 5fr;
 }
+
+.teeth{ 
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.tusk{ 
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.skin{ 
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.locomotion{ 
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.internal{ 
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+

@@ -1,11 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 3</title>
+    <link href="CSS/Camping.css" rel="stylesheet">
+    <script src="JS/index.js" defer></script>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap" rel="stylesheet">
+
+    <!--Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+    <title>Camping</title>
+
 </head>
+
+
 <body>
+
+
+    <header>
+        <h1> Camping</h1>
+    </header>
+
+    <section class="sr-only">
+        <h2>Skip Navigation</h2>
+        <a class="skip-link" href="#maincontent">Skip to main content</a>
+    </section>
+
+    <nav>
+        <h2 class="sr-only"> Main Navigation</h2>
+        <ul>
+            <li><a href="#About">About Camping</a><span class="material-icons">home</span></li>
+            <li><a href="#Equipment">Items to Pack</a><span class="material-icons">check_box</span></li>
+            <li><a href="#Places">Places to Camp</a><span class="material-icons">search</span></li>
+            <li><a href="#Feedback">Feedback</a><span class="material-icons">data_thresholding</span></li>
+        </ul>
+    </nav>
+
+    <main id="maincontent">
+
+        <section id="About">
+            <h2>About</h2>
+            <span aria-hidden=”true” class="material-icons">home</span>
+
+            <p>Camping is a form of outdoor recreation or outdoor education involving overnight stays with a basic
+                temporary
+                shelter such as a tent.
+                Camping can also include a recreational vehicle, sheltered cabins, a permanent tent, a shelter such as a
+                bivy or tarp, or no shelter at all.
+                Typically, participants leave developed areas to spend time outdoors, in pursuit of activities providing
+                them enjoyment or in a form of educational experience.
+                Spending the night away from home distinguishes camping from day-tripping, picnicking, and other outdoor
+                activities. Camping as a recreational activity
+                became popular among elites in the early 20th century. With time, it grew in popularity among other
+                socioeconomic classes. Modern campers frequent publicly
+                owned natural resources such as national and state parks, wilderness areas, and commercial campgrounds.
+                In
+                few countries, including Sweden and Scotland,
+                public camping is legal on privately held land as well. Camping is a key part of many youth
+                organizations
+                around the world, such as Scouting, which use it
+                to teach both self-reliance and teamwork. School camping trips also have numerous benefits and can play
+                an
+                essential role in the personal growth and development
+                of students.</p>
+            <img src="IMAGES/Camping/camping.png">
+
+        </section>
+
+        <section id="Equipment">
+            <h2>Equipment for Camping</h2>
+            <span aria-hidden=”true” class="material-icons">check_box</span>
+            <table>
+
+                <thead>
+                    <tr>
+                        <th scope="col">Equipment</th>
+                        <th scope="col">Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Tent</td>
+                        <td><img src="IMAGES/Camping/tent.png" alt="tent"></td>
+                    </tr>
+                    <tr>
+                        <td>Sleeping Bag</td>
+                        <td><img src="IMAGES/Camping/sleepingbag.png" alt="sleeping bag"></td>
+                    </tr>
+                    <tr>
+                        <td>Sleeping Pad</td>
+                        <td><img src="IMAGES/Camping/sleepingpad.png" alt="sleeping pad"></td>
+                    </tr>
+                    <tr>
+                        <td>First Aid Kit</td>
+                        <td><img src="IMAGES/Camping/firstaid.png" alt="fist aid kit"></td>
+                    </tr>
+                    <tr>
+                        <td>Wood & Fire Starter</td>
+                        <td><img src="IMAGES/Camping/tent.png" alt="fire starter and wood"></td>
+                    </tr>
+                    <tr>
+                        <td>Trash Bags</td>
+                        <td><img src="IMAGES/Camping/trash.png" alt="trash bags"></td>
+                    </tr>
+                    <tr>
+                        <td>Camp Stove</td>
+                        <td><img src="IMAGES/Camping/stove.png" alt="camp stove"></td>
+                    </tr>
+                    <tr>
+                        <td>Food</td>
+                        <td><img src="IMAGES/Camping/food.png" alt="camping food"></td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+        </section>
+
+        <section id="Places">
+            <h2>Places to Camp in Colorado</h2>
+            <span aria-hidden=”true” class="material-icons">search</span>
+            <p>
+
+                1. Brainard Lake Recreation Area, Indian Peaks Wilderness <br>
+                2. Echo Lake Campground, Mount Evans Recreation Area<br>
+                3. Lone Duck Campground, Pikes Peak Area<br>
+                4. Silver Bell Campground, Maroon Bells Wilderness<br>
+                5. Marble Mountain Yurt, White River National Forest<br>
+                6. Moraine Park Campground, Rocky Mountain National Park<br>
+                7. Piñon Flats Campground, Great Sand Dunes National Park<br>
+                8. Amphitheater Campground, Ouray<br>
+                9. Carson Lake Recreation Area, Grand Mesa National Forest<br>
+                10. Goose Creek Trailhead, Lost Creek Wilderness<br>
+                11. Molly Brown Campground, Turquoise Lake Recreation Area<br>
+                12. Chicago Basin, Weminuche Wilderness<br>
+                13. Angel of Shavano Campground, San Isabel National Forest<br>
+                14. Twin Peaks Campground, Twin Lakes<br>
+                15. South Rim Campground, Black Canyon of the Gunnison National Park<br>
+                16. Grand Junction KOA Holiday, Grand Junction<br>
+                17. South Colony Lakes, Sangre De Cristo Wilderness<br>
+                18. Mirror Lake, Indian Peaks Wilderness<br>
+                19. Buffalo Pass, Steamboat Springs<br>
+                20. Alpine Loop, San Juan Mountains<br>
+                21. Cottonwood Pass, Buena Vista<br>
+                22. Guanella Pass, Georgetown<br>
+                23. Mountain Park Campground, Roosevelt National Forest<br>
+                24. Silver Thread Campground, San Juan Mountains<br>
+                25. Arapaho Bay Campground, Arapaho National Forest<br>
+                26. Pearl Lake Campground, Steamboat Springs<br>
+                27. Sun Outdoors Rocky Mountain Campground, Granby<br>
+                28. Bear Lake Campground, Flat Tops Wilderness Area<br>
+                29. Teal Campground, Pagosa Springs<br>
+                30. Upper Slate Lake, White River National Forest<br>
+                31. Morefield Campground, Mesa Verde National Park<br>
+            </p>
+        </section>
+
+        <section id="Feedback">
+            <h2>Camping Form</h2>
+            <span aria-hidden=”true” class="material-icons">data_thresholding</span>
+            <form id="myform" method="post">
+                <fieldset>
+                    <legend>Give us your feedback!</legend>
+
+                    <label for="username">
+                        name:
+                        <input type="text" id="username" required>
+                    </label>
+
+                    <label for="email">
+                        email:
+                        <input type="email" id="email">
+                    </label>
+
+                    <label for="website">
+                        feedback
+                        <input type="url" id="website">
+                    </label>
+
+
+                    <input type="submit">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <button id="back">BACK TO HOME</button>
+    </footer>
     
 </body>
+
 </html>

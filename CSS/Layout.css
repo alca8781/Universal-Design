@@ -1,0 +1,219 @@
+@media(min-width:860px) {
+
+h1 {
+    color: rgb(83, 131, 81);
+    font-size: 45pt;
+    text-align: center;
+    margin-bottom: 8px;
+
+    font-family: "Notable", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+h2 {
+
+    font-family: "Ribeye", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+    font-family: "Onest", sans-serif;
+    font-optical-sizing: auto;
+   font-size: 12pt;
+    font-style: normal;
+
+    line-height: 1.7em;
+}
+
+nav {
+    padding: .4em;
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    background-color: rgb(83, 131, 81);
+    margin-bottom: 10px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: .2em .5em;
+    margin: 0 20pt;
+    text-align: left;
+    
+}
+
+nav ul li a:hover {
+    color: #c0f3d9;
+    border-bottom: 2px solid #7ec3a0;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+.MainContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+div {
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px solid white;
+    
+}
+#aside1{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-left: 0pt;
+    padding-left: 10pt;
+    padding-right: 10pt;
+    margin-bottom: 15pt;
+    margin-top: 15pt;
+    background-color: #d3e9de;
+}
+#aside2{
+    text-align: center;
+}
+#senses {
+    background-color: rgb(178, 200, 144);
+}
+
+#shell {
+    background-color: rgb(102, 193, 114);
+}
+
+#diet {
+    background-color: rgb(118, 162, 118);
+}
+
+#aside1 img{
+    width: 580px;
+    margin: 20px;
+    
+}
+
+footer{
+    margin-top: 20pt;
+    text-align: center;
+}
+} 
+
+@media(max-width:860px) {
+    body{
+        margin-left: 20pt;
+        margin-right: 20pt;
+    }
+    h1 {
+        color: rgb(83, 131, 81);
+        font-size: 35pt;
+        text-align: center;
+        margin-bottom: 8px;
+    
+        font-family: "Notable", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    
+    }
+    
+    h2 {
+    
+        font-family: "Ribeye", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    p{
+        font-family: "Onest", sans-serif;
+        font-optical-sizing: auto;
+       font-size: 10pt;
+        font-style: normal;
+    
+        line-height: 1.6em;
+    }
+    
+    nav {
+        padding: .4em;
+        display: flex;
+        justify-content: space-evenly;
+        position: sticky;
+        top: 0;
+        background-color: rgb(83, 131, 81);
+        margin-bottom: 10px;
+    }
+    
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+    }
+    
+    nav a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding: .2em .5em;
+        padding: 8px;
+        text-align: left;
+        font-size: 8pt;
+        
+    }
+    
+    
+    .MainContent {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        max-width: 200px;
+    }
+    
+    div {
+        padding: 8pt;
+        border: 2px solid white;
+        
+    }
+    #aside1{
+        padding: 8pt;
+        margin-bottom: 15pt;
+        margin-top: 15pt;
+        background-color: #d3e9de;
+    }
+    #aside2{
+        text-align: center;
+    }
+    #senses {
+        background-color: rgb(178, 200, 144);
+    }
+    
+    #shell {
+        background-color: rgb(102, 193, 114);
+    }
+    
+    #diet {
+        background-color: rgb(118, 162, 118);
+    }
+
+    #shell img{
+        width: 250px;
+    }
+    
+    #aside1 img{
+        width: 250px;
+        margin: 10px;
+        
+    }
+    
+    footer{
+        margin-top: 20pt;
+        text-align: center;
+    }
+    } 

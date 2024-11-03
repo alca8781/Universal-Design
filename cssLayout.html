@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="CSS/Layout.css" rel="stylesheet">
-
+    <script src="JS/index.js" defer></script>
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,6 +34,7 @@
             <h1>Turtles</h1>
         </header>
         <nav>
+            <h2 class="sr-only"> Main Navigation</h2>
             <ul>
                 <li><a href="#aside1">ABOUT</a></li>
                 <li><a href="#shell">SHELL</a></li>
@@ -44,6 +45,7 @@
         </nav>
         <main>
             <aside id="aside1">
+                <h2 class="sr-only">About</h2>
                 <section>
                     <h2>About</h2>
 
@@ -128,7 +130,8 @@
 
         </aside>
         <footer>
-            <small> turtles are cool :) </small>
+            <small> turtles are cool :) </small> <br><br> 
+            <button id="back">BACK TO HOME</button>
         </footer>
 
     </div>

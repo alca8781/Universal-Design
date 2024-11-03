@@ -1,7 +1,18 @@
 @media(min-width:860px) {
+    .sr-only {
+        border: 0;
+        clip: rect(0, 0, 0, 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+    }
 
 h1 {
-    color: rgb(83, 131, 81);
+    color: rgb(59, 86, 58);
     font-size: 45pt;
     text-align: center;
     margin-bottom: 8px;
@@ -29,12 +40,12 @@ p{
 }
 
 nav {
-    padding: .4em;
+    padding: .8em;
     display: flex;
     justify-content: space-evenly;
     position: sticky;
     top: 0;
-    background-color: rgb(83, 131, 81);
+    background-color: rgb(59, 86, 58);
     margin-bottom: 10px;
 }
 
@@ -55,8 +66,8 @@ nav a {
 }
 
 nav ul li a:hover {
-    color: #c0f3d9;
-    border-bottom: 2px solid #7ec3a0;
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
     transition: color 0.3s, border-bottom 0.3s;
 }
 
@@ -81,6 +92,7 @@ div {
     margin-bottom: 15pt;
     margin-top: 15pt;
     background-color: #d3e9de;
+    
 }
 #aside2{
     text-align: center;
@@ -107,6 +119,13 @@ footer{
     margin-top: 20pt;
     text-align: center;
 }
+#back{
+    background-color: #7ec3a0;
+    border-radius: 4pt;
+    border: none;
+    padding: 8px;
+    font-size: 8pt;
+}
 } 
 
 @media(max-width:860px) {
@@ -114,8 +133,19 @@ footer{
         margin-left: 20pt;
         margin-right: 20pt;
     }
+    .sr-only {
+        border: 0;
+        clip: rect(0, 0, 0, 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+    }
     h1 {
-        color: rgb(83, 131, 81);
+        color: rgb(59, 86, 58);
         font-size: 35pt;
         text-align: center;
         margin-bottom: 8px;
@@ -148,7 +178,7 @@ footer{
         justify-content: space-evenly;
         position: sticky;
         top: 0;
-        background-color: rgb(83, 131, 81);
+        background-color: rgb(59, 86, 58);
         margin-bottom: 10px;
     }
     
@@ -215,5 +245,13 @@ footer{
     footer{
         margin-top: 20pt;
         text-align: center;
+    }
+
+    #back{
+        background-color: #7ec3a0;
+        border-radius: 4pt;
+        border: none;
+        padding: 6px;
+        font-size: 8pt;
     }
     } 

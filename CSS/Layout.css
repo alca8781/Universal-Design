@@ -1,3 +1,4 @@
+/* computer */
 @media(min-width:860px) {
     .sr-only {
         border: 0;
@@ -128,6 +129,7 @@ footer{
 }
 } 
 
+/* phone */
 @media(max-width:860px) {
     body{
         margin-left: 20pt;

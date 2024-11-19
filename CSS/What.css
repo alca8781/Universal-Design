@@ -8,6 +8,7 @@
     position: absolute;
     white-space: nowrap;
     width: 1px;
+    color:black; 
 }
 .skip-navigation {
     position: absolute;
@@ -16,12 +17,14 @@
   width: 1px;
   height: 1px;
   overflow: hidden;
+  color:black; 
 }
 .skip:focus {
     position: static;
     width: auto;
     height: auto;
   }
+
 
 @media(min-width:1000px) {
     html {
@@ -109,7 +112,7 @@
         text-align: center;
     }
     
-    #principle{
+    #principle1, #principle2, #principle3, #principle4, #principle5, #principle6, #principle7 {
         background-color: #afcda0;
         padding: 20px;
         margin-top: 10px;
@@ -214,7 +217,7 @@
         text-align: center;
     }
     
-    #principle{
+    #principle1, #principle2, #principle3, #principle4, #principle5, #principle6, #principle7 {
         background-color: #afcda0;
         padding: 20px;
         margin-top: 10px;

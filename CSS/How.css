@@ -25,13 +25,10 @@
     height: auto;
   }
 
-.skip-navigation h2{
-    color:black
-}
-
-#home{
+  #home{
     text-align: right;
-    margin: 10px;
+    margin-top: 10px;
+    
 }
 
 @media(min-width:1000px) {
@@ -82,29 +79,32 @@
     }
 
     h2 {
-        margin: 12pt;
-        font-size: 20pt;
+        margin: 18pt;
+        font-size: 25pt;
         font-family: "Notable", sans-serif;
         font-weight: 400;
         font-style: normal;
         color: rgb(255, 255, 255);
     }
+
     h3{
-        color: rgb(166, 250, 160); 
-        font-size: 16pt;
+        text-align: left;
+        font-size: 18pt;
     }
 
     p {
-        margin-top: 45pt;
-        font-size: 12pt;
-        font-family: "Onest", sans-serif;
+        font-size: 14pt;
+        font-family: "Quicksand", sans-serif;
         font-optical-sizing: auto;
         font-style: normal;
-        line-height: 2.4em;
-        color: #ffffff;
+        line-height: 1.7em;
+        color: #000000;
+        text-align: left;
+        margin-left: 20px;
+        
     }
 
-    #MainContent{
+    #Title{
         background-color: #656565;
         display: block;
         text-align: center;
@@ -113,6 +113,35 @@
        
     }
 
+    #goodDesign, #Color_Font {
+        background-color: #afcda0;
+        padding: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px; 
+
+    }
+    #Framework, #DesignThinking,  #UsingThinking{ 
+        background-color: #afcda0;
+        padding: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px; 
+        text-align: center;
+    }
+    
+    #gridA{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #gridB{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap:10px; 
+    }
+
+    img{
+        padding: 15px; 
+    }
 }
 
 
@@ -164,29 +193,32 @@
     }
 
     h2 {
-        margin: 12pt;
-        font-size: 18pt;
+        margin: 18pt;
+        font-size: 25pt;
         font-family: "Notable", sans-serif;
         font-weight: 400;
         font-style: normal;
         color: rgb(255, 255, 255);
     }
+
     h3{
-        color: rgb(166, 250, 160); 
-        font-size: 16pt;
+        text-align: left;
+        font-size: 18pt;
     }
 
     p {
-        margin-top: 45pt;
-        font-size: 10pt;
-        font-family: "Onest", sans-serif;
+        font-size: 12pt;
+        font-family: "Quicksand", sans-serif;
         font-optical-sizing: auto;
         font-style: normal;
-        line-height: 2.4em;
-        color: #ffffff;
+        line-height: 1.7em;
+        color: #000000;
+        text-align: left;
+        margin-left: 20px;
+        
     }
 
-    #MainContent{
+    #Title{
         background-color: #656565;
         display: block;
         text-align: center;
@@ -195,7 +227,37 @@
        
     }
 
+ 
+    #goodDesign, #Color_Font {
+        background-color: #afcda0;
+        padding: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px; 
+
+    }
+    #Framework, #DesignThinking,  #UsingThinking{ 
+        background-color: #afcda0;
+        padding: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px; 
+        text-align: center;
+    }
+    
+    #gridA img {
+        width: 300px; 
+        
+    }
+
+    #gridB{
+        
+    }
+
     img{
-        width: 250px; 
+        padding: 15px; 
+    }
+
+    #Color_Font img{
+        width: 300px; 
+
     }
 }

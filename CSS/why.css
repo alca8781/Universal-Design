@@ -59,7 +59,6 @@ p {
 }
 
 
-
 @media(min-width:1000px) {
     html {
         height: 100%;
@@ -102,7 +101,7 @@ p {
         font-size: 40pt;
         color: #017F4D;
         margin-right: 20pt;
-
+       
     }
 
     h2 {
@@ -114,6 +113,25 @@ p {
     h3 {
         text-align: left;
         font-size: 18pt;
+    }
+
+    h4 {
+        text-align: center;
+        padding: none;
+        font-size: 14pt;
+
+    }
+
+    div {
+        text-align: center;
+        margin: 10pt;
+        background-color: #afcda0;
+    }
+
+    div p{
+        text-align: center;
+        padding: 10px;
+        margin-left:0pt;
     }
 
     p {
@@ -134,8 +152,7 @@ p {
 
     }
 
-    #goodDesign,
-    #Color_Font {
+    #DisabilityStat {
         background-color: #afcda0;
         padding: 20px;
         margin-top: 10px;
@@ -143,32 +160,60 @@ p {
 
     }
 
-    #Framework,
-    #DesignThinking,
-    #UsingThinking {
+    .abilityGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    img {
+        padding: 2px;
+    }
+
+    #WCAG {
         background-color: #afcda0;
         padding: 20px;
         margin-top: 10px;
         margin-bottom: 10px;
-        text-align: center;
+
+        display: grid;
+
     }
 
-    #gridA {
+    #WCAG p {
+        font-size: 12pt;
+    } 
+
+    #barriers {
+        background-color: #afcda0;
+        padding: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
-    #gridB {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 10px;
+    #barriers img {
+        width: 300pt;
+        margin-top: 30pt;
     }
 
-    img {
-        padding: 15px;
+    .readMore {
+        text-align: center;
+        text-decoration: none;
+        font-size: 16pt;
+        background-color: #afcda0;
+        padding: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    
     }
+    .readMore h3 {
+        text-align: center;
+    }
+
 }
-
 
 @media(max-width:1000px) {
     html {
@@ -212,10 +257,11 @@ p {
         font-size: 40pt;
         color: #017F4D;
         margin-right: 20pt;
+       
     }
 
     h2 {
-        margin: 18pt;
+        margin: 16pt;
         font-size: 25pt;
         color: rgb(255, 255, 255);
     }
@@ -223,6 +269,25 @@ p {
     h3 {
         text-align: left;
         font-size: 18pt;
+    }
+
+    h4 {
+        text-align: center;
+        padding: none;
+        font-size: 12pt;
+
+    }
+
+    div {
+        text-align: center;
+        margin: 10pt;
+        background-color: #afcda0;
+    }
+
+    div p{
+        text-align: center;
+        padding: 10px;
+        margin-left:0pt;
     }
 
     p {
@@ -243,38 +308,72 @@ p {
 
     }
 
+    #DisabilityStat {
+        background-color: #afcda0;
+        padding: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    
 
-    #goodDesign,
-    #Color_Font {
+    }
+
+    .abilityGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin-left: 0pt;
+        text-align: center;
+    }
+
+    .abilityGrid img{
+        width: 150px; 
+    }
+
+    img {
+        padding: 8px;
+    }
+
+    #WCAG {
         background-color: #afcda0;
         padding: 20px;
         margin-top: 10px;
         margin-bottom: 10px;
 
+        display: grid;
+
     }
 
-    #Framework,
-    #DesignThinking,
-    #UsingThinking {
+    #WCAG p {
+        font-size: 12pt;
+    } 
+
+    #barriers {
         background-color: #afcda0;
         padding: 20px;
         margin-top: 10px;
         margin-bottom: 10px;
         text-align: center;
+
+    } 
+
+    #barriers img {
+        width: 200pt;
+        margin-top: 30pt;
     }
 
-    #gridA img {
-        width: 300px;
-
+    .readMore {
+        text-align: center;
+        text-decoration: none;
+        font-size: 16pt;
+        background-color: #afcda0;
+        padding: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    
+    }
+    .readMore h3 {
+        text-align: center;
     }
 
-    #gridB {}
-
-    img {
-        padding: 15px;
-    }
-
-    #Color_Font img {
-        width: 300px;
-    }
 }
+

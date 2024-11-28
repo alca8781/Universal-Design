@@ -8,27 +8,54 @@
     position: absolute;
     white-space: nowrap;
     width: 1px;
-    color:black; 
+    color: black;
 }
+
 .skip-navigation {
     position: absolute;
-  left: -10000px;
-  top: auto;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  color:black; 
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    color: black;
 }
+
 .skip:focus {
     position: static;
     width: auto;
     height: auto;
-  }
+}
 
-  #home{
+#home {
     text-align: right;
     margin-top: 10px;
-    
+
+}
+
+h1 {
+    font-family: "Ribeye", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "Notable", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+h4{
+    font-family: "Ultra", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 @media(min-width:1000px) {
@@ -178,9 +205,7 @@
         font-size: 40pt;
         color: #017F4D;
         margin-right: 20pt;
-        font-family: "Ribeye", serif;
-        font-weight: 400;
-        font-style: normal;
+
     }
 
     h2 {

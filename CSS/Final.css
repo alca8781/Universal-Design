@@ -20,6 +20,9 @@
     overflow: hidden;
     color: black;
 }
+.skip-navigation h2{
+    color: black;
+}
 
 .skip:focus {
     position: static;

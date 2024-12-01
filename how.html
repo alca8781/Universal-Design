@@ -30,13 +30,13 @@
 
 <body>
 
-  <a href="#MainContent" class="skip-navigation">
-    <h3>Skip Navigation</h3>
-  </a>
-
   <header>
     <h1>Universal Design</h1>
   </header>
+
+  <a href="#MainContent" class="skip-navigation">
+    <h2>Skip Navigation</h2>
+  </a>
 
   <nav>
     <h2 class="sr-only"> Main Navigation</h2>
@@ -49,6 +49,17 @@
   </nav>
 
 
+  <nav class="sr-only">
+    <h2 class="sr-only"> Page Nav</h2>
+    <ul>
+      <li><a href="#Title">Title</a></li>
+      <li><a href="#goodDesign">Good Design</a></li>
+      <li><a href="#gridB"> Framework, Design Thinking, Using Design Thinking</a></li>
+      <li><a href="#Color_Font"> Color and Font</a></li>
+    
+    </ul>
+  </nav>
+
   <section id="MainContent">
     <h2 class="sr-only"> How to Design Accessibly</h2>
     <section id="Title">
@@ -60,14 +71,14 @@
 
       <section id="gridA">
         <h2 class="sr-only">What is good design</h2>
-        <p>
-          - visually pleasing<br>
-          - has substance and depth<br>
-          - avoid creating barriers <br>
-          - simple <br>
-          - elegant <br>
-          - beneficial for everyone
-        </p>
+        <ul>
+          <li> - visually pleasing</li>
+          <li> - has substance and depth</li>
+          <li> - avoid creating barriers </li>
+          <li> - simple </li>
+          <li> - elegant </li>
+          <li> - beneficial for everyone </li>
+        </ul>
         <img src="IMAGES/Final/design.jpg" alt="design diagram">
       </section>
     </section>
@@ -76,48 +87,73 @@
       <h2 class="sr-only">Framework, Design Thinking, Using Design Thinking </h2>
       <section id="Framework">
         <h3> Building a Framework</h3>
-        <p>
-          1. People First: design for differences<br>
-          2. Clear Purpose: well-defined goals <br>
-          3. Solid Structure: built to standards <br>
-          4. Easy Interaction: everything works correctly <br>
-          5. Helpful Wayfinding: guilds users <br>
-          6. Clean Presentation: supports meaning <br>
-          7. Plain Language: creates a conversation <br>
-          8. Accessible Media: supports all senses<br>
-          9. Universal Usability: creates delight<br>
-        </p>
+        
+        <ul>
+          <li> 1. People First: design for differences </li>
+          <li>2. Clear Purpose: well-defined goals </li>
+          <li>3. Solid Structure: built to standards </li>
+          <li>4. Easy Interaction: everything works correctly </li>
+          <li>5. Helpful Wayfinding: guilds users </li>
+          <li>6. Clean Presentation: supports meaning </li>
+          <li>7. Plain Language: creates a conversation </li>
+          <li>8. Accessible Media: supports all senses</li>
+          <li>9. Universal Usability: creates delight</li>
+        </ul>
+    
       </section>
 
       <section id="DesignThinking">
         <h3>Design Thinking</h3>
         <p> Design for people</p>
 
-        <p>
-          Step 1: Integration & Iteration <br>
-          Step 2: Divergent thinking : imagine possibilities without constraints <br>
-          Step 3: Convergent Thinking : choose an idea that is most likely to work <br>
-          Step 4: Human Centered <br>
-          Step 5: Insight
-        </p>
+        <ul>
+          <li>Step 1: Integration & Iteration </li>
+          <li>Step 2: Divergent thinking : imagine possibilities without constraints </li>
+          <li>Step 3: Convergent Thinking : choose an idea that is most likely to work </li>
+          <li>Step 4: Human Centered </li>
+          <li>Step 5: Insight </li>
+        </ul>
       </section>
 
       <section id="UsingThinking">
         <h3> Using Design Thinking </h3>
-        <p>
-          - Modify code to comply with guidelines<br>
-          - Holistic approach to design <br>
-          - Include Accessiblity throughout process <br>
-          - Thinking about many different people & environments
+        <ul>
+          <li>- Modify code to comply with guidelines</li>
+          <li>- Holistic approach to design </li>
+          <li>- Include accessibility throughout process </li>
+          <li> - Thinking about many different people & environments </li>
+        </ul>
       </section>
     </section>
 
     <section id="Color_Font">
+      <div>
       <h3> Choosing Colors & Font </h3>
       <img src="IMAGES/Final/contrast.jpg" alt="Adobe Color contrast page"> 
       <img src="IMAGES/Final/palette.jpg" alt="Color Palette">
-      <img src="IMAGES/Final/font.jpg" alt="font recomendations"> 
-      <p> </p>
+      <img src="IMAGES/Final/font.jpg" alt="font recommendations"> 
+      </div>
+      <div class="PARA"> 
+        Web Designers recommend choosing : 
+        <ul>
+          <li> a. ~3 color palette with high contrast </li>
+          <li> b. sans-serif fonts are easiest to read on a screen </li>
+          <li> c. make sure the font is large enough to read </li>
+          <li> d. choose a font that is legible </li> 
+          <li> e. avoid conveying important information in color </li>
+          <li> f. use color to enhance not distract from the information </li> 
+          <li> g. avoid using all-caps </li>
+      </ul>
+    </div> 
+    </section>
+  </section>
+
+
+  <section id="home">
+    <h2 class="sr-only"> Back to homepage</h2>
+    <button id="back">BACK TO HOME</button>
+  </section>
+
 </body>
 
 </html>

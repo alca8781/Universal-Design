@@ -20,6 +20,9 @@
     overflow: hidden;
     color: black;
 }
+.skip-navigation h2{
+    color: black;
+}
 
 .skip:focus {
     position: static;
@@ -58,6 +61,21 @@ p {
     font-style: normal;
 }
 
+ul{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+#barriers li{
+    list-style-type: square;
+    line-height: 2em;
+}
+
+#WCAG li{
+    list-style-type: none;
+    line-height: 2em;
+}
 
 @media(min-width:1000px) {
     html {
@@ -96,6 +114,10 @@ p {
         transition: color 0.3s, border-bottom 0.3s;
     }
 
+    #Title h2{
+        color: white;
+    }
+
     h1 {
         text-align: right;
         font-size: 40pt;
@@ -107,7 +129,7 @@ p {
     h2 {
         margin: 18pt;
         font-size: 25pt;
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
     }
 
     h3 {
@@ -252,6 +274,10 @@ p {
         transition: color 0.3s, border-bottom 0.3s;
     }
 
+    #Title h2{
+        color: white;
+    }
+
     h1 {
         text-align: right;
         font-size: 40pt;
@@ -259,11 +285,12 @@ p {
         margin-right: 20pt;
        
     }
+    
 
     h2 {
         margin: 16pt;
         font-size: 25pt;
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
     }
 
     h3 {

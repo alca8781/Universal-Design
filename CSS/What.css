@@ -156,7 +156,7 @@ p {
 
     }
 
-    #gridP{
+    #gridP1, #gridP2, #gridP3, #gridP4, #gridP5, #gridP6, #gridP7 {
         display: grid;
         grid-template-columns: 1fr  1fr;
     }

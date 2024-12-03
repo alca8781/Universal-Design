@@ -197,6 +197,18 @@ li{
         margin-left: 30px;
     }
 
+    #elements {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        padding: 20px;
+        background-color: #afcda0;
+    }
+    #elements img{ 
+        margin-left: 20pt;
+        
+    }
+
+
 }
 
 
@@ -307,4 +319,10 @@ li{
     #Color_Font img {
         width: 300px;
     }
+
+    #elements img{ 
+        width: 300px;
+        text-align: center;
+    }
+
 }

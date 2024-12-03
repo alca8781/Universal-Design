@@ -125,13 +125,35 @@ p {
     }
 
     #MainContent{
-        background-color: #656565;
-        display: block;
+         display: block;
         text-align: center;
         padding: 20pt;
         margin-top: 10pt; 
        
     }
+
+    #about{
+        background-color: #afcda0;
+        padding: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+    }
+    #about p{
+        color:black; 
+    }
+    #about h2{
+        color:black; 
+    }
+
+    #what{
+        background-color: #656565;
+        display: block;
+        text-align: center;
+        padding: 20pt;
+        margin-top: 10pt; 
+    }
+
 
 }
 
@@ -197,14 +219,36 @@ p {
     }
 
     #MainContent{
-        background-color: #656565;
         display: block;
-        text-align: center;
-        padding: 20pt;
-        margin-top: 10pt; 
-    }
+       text-align: center;
+       padding: 20pt;
+       margin-top: 10pt; 
+      
+   }
 
-    img{
-        width: 250px; 
-    }
+   #about{
+       background-color: #afcda0;
+       padding: 20px;
+       margin-top: 10px;
+       margin-bottom: 10px;
+       
+   }
+   #about p{
+       color:black; 
+   }
+   #about h2{
+       color:black; 
+   }
+
+   #what{
+       background-color: #656565;
+       display: block;
+       text-align: center;
+       padding: 20pt;
+       margin-top: 10pt; 
+   }
+
+   img{
+    width: 200pt; 
+   }
 }

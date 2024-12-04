@@ -323,6 +323,11 @@ li{
     #elements img{ 
         width: 300px;
         text-align: center;
+        
+    }
+    #elements{
+        background-color: #afcda0;
+        padding: 10pt;
     }
 
 }

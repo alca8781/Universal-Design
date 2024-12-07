@@ -62,7 +62,7 @@ p {
     font-style: normal;
 }
 
-@media(min-width:1000px) {
+@media(min-width:1200px) {
     html {
         height: 100%;
         width: 80%;
@@ -168,10 +168,10 @@ p {
 }
 
 
-@media(max-width:1000px) {
+@media(max-width:1200px) {
     html {
         height: 100%;
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
     }
 
@@ -207,15 +207,15 @@ p {
 
     h1 {
         text-align: right;
-        font-size: 40pt;
+        font-size: 25pt;
         color: #017F4D;
         margin-right: 20pt;
 
     }
 
     h2 {
-        margin: 18pt;
-        font-size: 25pt;
+        
+        font-size: 16pt;
         font-family: "Notable", sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -228,15 +228,10 @@ p {
     }
 
     p {
-        font-size: 12pt;
-        font-family: "Quicksand", sans-serif;
-        font-optical-sizing: auto;
-        font-style: normal;
-        line-height: 1.7em;
+        font-size: 11pt;
+         line-height: 1.7em;
         color: #000000;
         text-align: left;
-        margin-left: 20px;
-        
     }
 
     #Title{

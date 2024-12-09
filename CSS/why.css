@@ -224,6 +224,9 @@ footer{
 
 
     }
+    #WCAG h2{
+        color:#000000;
+    }
 
     #WCAG p {
         font-size: 12pt;
@@ -238,6 +241,10 @@ footer{
         display: grid;
         grid-template-columns: 1fr 1fr;
         border-radius: 8px;
+    }
+
+    #barriers h2{
+        color:#000000;
     }
 
     #barriers img {
@@ -420,6 +427,10 @@ footer{
         margin-bottom: 10px;
         display: grid;
         border-radius: 8px;
+    }
+
+    #WCAG h2{
+        color:#000000;
     }
 
     #WCAG p {

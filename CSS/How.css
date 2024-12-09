@@ -119,6 +119,8 @@ li{
         transition: color 0.3s, border-bottom 0.3s;
     }
 
+
+
     h1 {
         text-align: right;
         font-size: 40pt;
@@ -128,14 +130,14 @@ li{
     }
 
     h2 {
-        margin: 18pt;
-        font-size: 25pt;
+        margin: 12pt;
+        font-size: 20pt;
         color: rgb(255, 255, 255);
     }
 
     h3 {
         text-align: left;
-        font-size: 18pt;
+        font-size: 16pt;
     }
 
     p {

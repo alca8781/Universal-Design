@@ -30,10 +30,6 @@
     height: auto;
 }
 
-footer{
-    text-align: center;
-    margin-top: 50pt;
-}
 
 #home {
     text-align: right;
@@ -79,6 +75,10 @@ li{
 }
 
 
+footer{
+    text-align: center;
+    margin-top: 50pt;
+}
 
 
 @media(min-width:1200px) {

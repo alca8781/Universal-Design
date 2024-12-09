@@ -30,6 +30,7 @@
     height: auto;
 }
 
+
 #home {
     text-align: right;
     margin-top: 10px;
@@ -66,6 +67,13 @@ ul{
     font-optical-sizing: auto;
     font-style: normal;
 }
+
+li{
+    list-style-type: none;
+    line-height: 2em;
+    text-align: left;
+}
+
 
 footer{
     text-align: center;
@@ -119,7 +127,7 @@ footer{
         margin-right: 20pt;
         
     }
-    
+
     h2 {
         margin: 12pt;
         font-size: 20pt;
@@ -188,7 +196,6 @@ footer{
         top: 0;
         background-color: #017F4D;
         border-radius: 8px;
-        
     }
 
     nav ul {
@@ -196,7 +203,6 @@ footer{
         padding: 0;
         list-style: none;
         display: flex;
-        
     }
 
     nav a {
@@ -211,7 +217,6 @@ footer{
         color: black;
         border-bottom: 2px solid #00E092;
         transition: color 0.3s, border-bottom 0.3s;
-        
     }
 
     h1 {

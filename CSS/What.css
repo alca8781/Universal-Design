@@ -24,16 +24,10 @@
     color: black;
 }
 
-
 .skip:focus {
     position: static;
     width: auto;
     height: auto;
-}
-
-footer{
-    text-align: center;
-    margin-top: 50pt;
 }
 
 
@@ -72,6 +66,18 @@ ul{
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+}
+
+li{
+    list-style-type: none;
+    line-height: 2em;
+    text-align: left;
+}
+
+
+footer{
+    text-align: center;
+    margin-top: 50pt;
 }
 
 @media(min-width:1200px) {
@@ -230,9 +236,9 @@ ul{
     h2 {
         
         font-size: 16pt;
-        font-family: "Notable", sans-serif;
+        /* font-family: "Notable", sans-serif;
         font-weight: 400;
-        font-style: normal;
+        font-style: normal; */
         color: rgb(255, 255, 255);
     }
 

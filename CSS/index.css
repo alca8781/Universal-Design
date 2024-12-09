@@ -8,10 +8,10 @@
     position: absolute;
     white-space: nowrap;
     width: 1px;
+    color: black;
 }
-
 .skip-navigation {
-    position: absolute;
+position: absolute;
   left: -10000px;
   top: auto;
   width: 1px;
@@ -24,7 +24,7 @@
     height: auto;
   }
 
-@media(min-width:1000px) {
+@media(min-width:1200px) {
     html {
         
         height: 100%;
@@ -38,7 +38,7 @@
         justify-content: space-evenly;
         position: sticky;
         top: 0;
-        background-color: rgb(96, 110, 125);
+        background-color: #017F4D;
     }
 
     nav ul {
@@ -57,64 +57,86 @@
     }
 
     nav ul li a:hover {
-        color: #86d4fd;
-        border-bottom: 2px solid #86d4fd;
+        color: black;
+        border-bottom: 2px solid #00E092;
         transition: color 0.3s, border-bottom 0.3s;
     }
 
     h1 {
         text-align: right;
         font-size: 40pt;
-        color: rgb(68, 124, 189);
+        color: #017F4D;
         margin-right: 20pt;
         font-family: "Ribeye", serif;
         font-weight: 400;
         font-style: normal;
     }
 
-    h2 {
-        margin: 18pt;
-        font-size: 25pt;
-        font-family: "Notable", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        color: rgb(255, 255, 255);
+
+
+
+
+    #MainContent {
+        background-color: rgb(99, 122, 113);
+        padding: 30px;
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:20px; 
+        
     }
 
-    p {
-        margin-top: 45pt;
+    .one{
+        background-color: #b7ffe3;
+        border-radius: 10pt;
+
+    }
+    .one p {
+        margin-top: 45px;
+        margin-left: 20px; 
         font-size: 12pt;
         font-family: "Onest", sans-serif;
         font-optical-sizing: auto;
         font-style: normal;
         line-height: 1.7em;
-       
+        color: rgb(0, 0, 0);
     }
 
-    img {
+    .one h2 {
+        margin: 18pt;
+        font-size: 25pt;
+        font-family: "Notable", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(5, 5, 5);
+    }
+    
+    .two{
+        background-color: #b7ffe3;
+        text-align: center;
+        border-radius: 10pt;
+    }
+
+    .two img{
         width: 400px;
-        border: solid 5pt rgb(255, 255, 255);
-    }
-
-    #aboutMe {
-        display: inline-flex;
-        gap: 50pt;
-        margin: 20pt;
-    }
-
-
-    #MainContent {
-        background-color: rgb(68, 124, 189);
         padding: 10px;
-        margin-top: 10px;
     }
+
+footer{
+    text-align: center;
+    margin-top: 50pt;
 }
 
 
-@media(max-width:1000px) {
+   
+}
+
+
+@media(max-width:1200px) {
     html {
-        max-width: 350px;
+        
         height: 100%;
+        width: 90%;
         margin: 0 auto;
     }
 
@@ -124,7 +146,7 @@
         justify-content: space-evenly;
         position: sticky;
         top: 0;
-        background-color: rgb(96, 110, 125);
+        background-color: #017F4D;
     }
 
     nav ul {
@@ -137,60 +159,78 @@
     nav a {
         color: rgb(255, 255, 255);
         text-decoration: none;
-        padding: .2em .5em;
-        margin: 0 10pt;
+        padding: .2em .2em;
+        margin: 0 8px;
         text-align: left;
+        font-size: 10pt;
     }
 
     nav ul li a:hover {
-        color: #86d4fd;
-        border-bottom: 2px solid #86d4fd;
+        color: black;
+        border-bottom: 2px solid #00E092;
         transition: color 0.3s, border-bottom 0.3s;
     }
 
     h1 {
         text-align: right;
-        font-size: 25pt;
-        color: rgb(68, 124, 189);
-    
+        font-size: 24pt;
+        color: #017F4D;
+        margin-right: 20pt;
         font-family: "Ribeye", serif;
         font-weight: 400;
         font-style: normal;
     }
 
-    h2 {
-        margin: 14pt;
-        font-size: 16pt;
-        font-family: "Notable", sans-serif;
-        font-weight: 100;
-        font-style: normal;
-        color: rgb(255, 255, 255);
-    }
 
-    p {
-        margin-top: 15pt;
-        font-size: 10pt;
-        font-family: "Onest", sans-serif;
-        font-optical-sizing: auto;
-        font-style: normal;
-        line-height: 1.2em;
 
-    }
-
-    img {
-        width: 250px;
-        height: auto;
-        border: solid 5pt rgb(255, 255, 255);
-    }
-
-    #aboutMe {
-        margin: 20pt;
-    }
 
 
     #MainContent {
-        background-color: rgb(68, 124, 189);
+        background-color: rgb(99, 122, 113);
         padding: 10px;
         margin-top: 10px;
+   
+        
     }
+
+    .one{
+        background-color: #b7ffe3;
+        border-radius: 10pt;
+
+    }
+    .one p {
+        margin-top: 25px;
+        padding: 10px; 
+        font-size: 12pt;
+        font-family: "Onest", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        line-height: 1.7em;
+        color: rgb(0, 0, 0);
+    }
+
+    .one h2 {
+        margin: 18pt;
+        font-size: 25pt;
+        font-family: "Notable", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(5, 5, 5);
+    }
+    
+    .two{
+        background-color: #b7ffe3;
+        text-align: center;
+        border-radius: 10pt;
+    }
+
+    .two img{
+        width: 80%;
+        padding: 10px;
+    }
+
+footer{
+    text-align: center;
+    margin-top: 50pt;
+}
 }

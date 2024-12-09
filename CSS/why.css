@@ -30,6 +30,11 @@
     height: auto;
 }
 
+footer{
+    text-align: center;
+    margin-top: 50pt;
+}
+
 #home {
     text-align: right;
     margin-top: 10px;
@@ -91,6 +96,7 @@ ul{
         position: sticky;
         top: 0;
         background-color: #017F4D;
+        border-radius: 8px;
     }
 
     nav ul {
@@ -116,6 +122,10 @@ ul{
 
     #Title h2{
         color: white;
+    }
+
+    #Title{
+        border-radius: 8px;
     }
 
     h1 {
@@ -179,6 +189,7 @@ ul{
         padding: 20px;
         margin-top: 10px;
         margin-bottom: 10px;
+        border-radius: 8px;
 
     }
 
@@ -186,6 +197,11 @@ ul{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
+        
+    }
+
+    div{
+        border-radius: 8px;
     }
 
     img {
@@ -197,8 +213,9 @@ ul{
         padding: 20px;
         margin-top: 10px;
         margin-bottom: 10px;
-
         display: grid;
+        border-radius: 8px;
+
 
     }
 
@@ -214,11 +231,13 @@ ul{
 
         display: grid;
         grid-template-columns: 1fr 1fr;
+        border-radius: 8px;
     }
 
     #barriers img {
         width: 300pt;
         margin-top: 30pt;
+        
     }
 
     #readMore {
@@ -229,6 +248,8 @@ ul{
         padding: 20px;
         margin-top: 10px;
         margin-bottom: 10px;
+        border-radius: 8px;
+
     
     }
     #readMore h3 {
@@ -251,6 +272,7 @@ ul{
         position: sticky;
         top: 0;
         background-color: #017F4D;
+        border-radius: 8px;
     }
 
     nav ul {
@@ -276,6 +298,9 @@ ul{
 
     #Title h2{
         color: white;
+    }
+    #Title{
+        border-radius: 8px;
     }
 
     h1 {
@@ -310,6 +335,7 @@ ul{
         margin: 4px;
         background-color: #afcda0;
         width: 80%;
+        border-radius: 8px;
     }
 
     div p{
@@ -338,6 +364,7 @@ ul{
         text-align: center;
         padding: 20pt;
         margin-top: 10pt;
+        border-radius: 8px;
 
     }
 
@@ -346,7 +373,7 @@ ul{
         padding: 10px;
         margin-top: 10px;
         margin-bottom: 10px;
-    
+        border-radius: 8px;
 
     }
 
@@ -360,8 +387,13 @@ ul{
         
     }
 
+    div{
+        border-radius: 8px;
+    }
+
     #abilityGrid img{
         width: 80%; 
+        border-radius: 8px;
         
     }
 
@@ -380,9 +412,8 @@ ul{
         padding: 20px;
         margin-top: 10px;
         margin-bottom: 10px;
-
         display: grid;
-
+        border-radius: 8px;
     }
 
     #WCAG p {
@@ -395,7 +426,7 @@ ul{
         margin-top: 10px;
         margin-bottom: 10px;
         text-align: center;
-
+        border-radius: 8px;
     } 
 
     #barriers img {
@@ -411,7 +442,7 @@ ul{
         padding: 20px;
         margin-top: 10px;
         margin-bottom: 10px;
-    
+        border-radius: 8px;
     }
     #readMore h3 {
         text-align: center;

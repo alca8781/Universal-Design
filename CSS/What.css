@@ -31,6 +31,12 @@
     height: auto;
 }
 
+footer{
+    text-align: center;
+    margin-top: 50pt;
+}
+
+
 #home {
     text-align: right;
     margin-top: 10px;
@@ -76,6 +82,7 @@ p {
         position: sticky;
         top: 0;
         background-color: #017F4D;
+        border-radius: 8px;
     }
 
     nav ul {
@@ -141,6 +148,7 @@ p {
         text-align: center;
         padding: 20pt;
         margin-top: 10pt; 
+        border-radius: 8px;
        
     }
 
@@ -153,6 +161,7 @@ p {
         padding: 20px;
         margin-top: 10px;
         margin-bottom: 10px; 
+        border-radius: 8px;
         
 
     }
@@ -182,6 +191,7 @@ p {
         position: sticky;
         top: 0;
         background-color: #017F4D;
+        border-radius: 8px;
     }
 
     nav ul {
@@ -240,6 +250,7 @@ p {
         text-align: center;
         padding: 20pt;
         margin-top: 10pt; 
+        border-radius: 8px;
        
     }
 
@@ -252,6 +263,7 @@ p {
         padding: 20px;
         margin-top: 10px;
         margin-bottom: 10px; 
+        border-radius: 8px;
 
     }
 

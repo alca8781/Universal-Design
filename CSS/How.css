@@ -30,6 +30,11 @@
     height: auto;
 }
 
+footer{
+    text-align: center;
+    margin-top: 50pt;
+}
+
 #home {
     text-align: right;
     margin-top: 10px;
@@ -90,6 +95,7 @@ li{
         position: sticky;
         top: 0;
         background-color: #017F4D;
+        border-radius: 8px;
     }
 
     nav ul {
@@ -147,6 +153,7 @@ li{
         text-align: center;
         padding: 20pt;
         margin-top: 10pt;
+        border-radius: 8px;
 
     }
 
@@ -155,6 +162,7 @@ li{
         padding: 20px;
         margin-top: 10px;
         margin-bottom: 10px;
+        border-radius: 8px;
 
     }
 
@@ -166,6 +174,7 @@ li{
         margin-top: 10px;
         margin-bottom: 10px;
         text-align: center;
+        border-radius: 8px;
     }
 
     #gridA {
@@ -190,6 +199,7 @@ li{
         margin-bottom: 10px;
         display: grid;
         grid-template-columns: 1fr 1fr;
+        border-radius: 8px;
     }
     .PARA{
         margin-top: 300pt;
@@ -202,6 +212,7 @@ li{
         grid-template-columns: 1fr 1fr ;
         padding: 20px;
         background-color: #afcda0;
+        border-radius: 8px;
     }
     #elements img{ 
         margin-left: 20pt;
@@ -226,6 +237,7 @@ li{
         position: sticky;
         top: 0;
         background-color: #017F4D;
+        border-radius: 8px;
     }
 
     nav ul {
@@ -280,7 +292,7 @@ li{
         text-align: center;
         padding: 10pt;
         margin-top: 10pt;
-
+        border-radius: 8px;
     }
 
 
@@ -290,6 +302,7 @@ li{
         padding: 10px;
         margin-top: 8px;
         margin-bottom: 8px;
+        border-radius: 8px;
 
     }
 
@@ -301,6 +314,7 @@ li{
         margin-top: 10px;
         margin-bottom: 10px;
         text-align: center;
+        border-radius: 8px;
     }
 
     #gridA img {
@@ -326,6 +340,7 @@ li{
     #elements{
         background-color: #afcda0;
         padding: 10pt;
+        border-radius: 8px;
     }
 
     ul{

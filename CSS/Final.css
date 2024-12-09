@@ -61,6 +61,11 @@ p {
     font-style: normal;
 }
 
+footer{
+    text-align: center;
+    margin-top: 50pt;
+}
+
 
 @media(min-width:1200px) {
     html {
@@ -76,6 +81,8 @@ p {
         position: sticky;
         top: 0;
         background-color: #017F4D;
+        border-radius: 8px;
+        
     }
 
     nav ul {
@@ -137,6 +144,8 @@ p {
         padding: 20px;
         margin-top: 10px;
         margin-bottom: 10px;
+        border-radius: 8px;
+        
         
     }
     #about p{
@@ -152,6 +161,7 @@ p {
         text-align: center;
         padding: 20pt;
         margin-top: 10pt; 
+        border-radius: 8px;
     }
 
 
@@ -171,6 +181,8 @@ p {
         position: sticky;
         top: 0;
         background-color: #017F4D;
+        border-radius: 8px;
+        
     }
 
     nav ul {
@@ -178,6 +190,7 @@ p {
         padding: 0;
         list-style: none;
         display: flex;
+        
     }
 
     nav a {
@@ -192,6 +205,7 @@ p {
         color: black;
         border-bottom: 2px solid #00E092;
         transition: color 0.3s, border-bottom 0.3s;
+        
     }
 
     h1 {
@@ -222,16 +236,17 @@ p {
     #MainContent{
         display: block;
        text-align: center;
-       padding: 20pt;
-       margin-top: 10pt; 
+       padding: 4pt;
+       margin-top: 5pt; 
       
    }
 
    #about{
        background-color: #afcda0;
-       padding: 20px;
+       padding: 10px;
        margin-top: 10px;
        margin-bottom: 10px;
+       border-radius: 8px;
        
    }
    #about p{
@@ -247,10 +262,13 @@ p {
        text-align: center;
        padding: 20pt;
        margin-top: 10pt; 
+       border-radius: 8px;
    }
 
    img{
     width: 100%; 
     text-align: center;
    }
+
+   
 }

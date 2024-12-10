@@ -10,7 +10,6 @@
     width: 1px;
     color: black;
 }
-
 .skip-navigation {
     position: absolute;
     left: -10000px;
@@ -23,18 +22,15 @@
 .skip-navigation h2{
     color: black;
 }
-
 .skip:focus {
     position: static;
     width: auto;
     height: auto;
 }
 
-
 #home {
     text-align: right;
     margin-top: 10px;
-
 }
 
 h1 {
@@ -74,10 +70,10 @@ li{
     text-align: left;
 }
 
-
 footer{
     text-align: center;
     margin-top: 50pt;
+    padding: 20px;
 }
 
 @media(min-width:1200px) {
@@ -215,7 +211,7 @@ footer{
         color: rgb(255, 255, 255);
         text-decoration: none;
         padding: .2em .5em;
-        margin: 0 10pt;
+        margin: 8px;
         text-align: left;
     }
 
@@ -230,7 +226,6 @@ footer{
         font-size: 25pt;
         color: #017F4D;
         margin-right: 20pt;
-
     }
 
     h2 {
